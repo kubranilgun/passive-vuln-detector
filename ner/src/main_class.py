@@ -85,11 +85,11 @@ if __name__ == '__main__':
     # parser.add_argument('text', type=str)
     parser.add_argument('--text', type=str, default='Named Entity Recognition')
     args = parser.parse_args()
-    # Main.predict(args.text)
-    Main.predict("i know that this type of problem has been reported before, but the answers weren't helpful to "
-                 "me. this is the code situation: start time: 01d9e3ffc17b8e54 i haven't been able to find "
-                 "similar questions on so, and since it i am not getting an out of memory error i think my "
-                 "suspicions might be off. any help and advice would be hugely appreciated here, happy to provide "
-                 "more info if i have left anything out that would be useful! it worked well on system version "
-                 "before ios 17. after the ios system version was upgraded to 17, a large number of crashes "
-                 "occurred. what happened?")
+    # Main.predict("i know that this type of problem has been reported before, but the answers weren't helpful to "
+    #              "me. this is the code situation: start time: 01d9e3ffc17b8e54 i haven't been able to find "
+    #              "similar questions on so, and since it i am not getting an out of memory error i think my "
+    #              "suspicions might be off. any help and advice would be hugely appreciated here, happy to provide "
+    #              "more info if i have left anything out that would be useful! it worked well on system version "
+    #              "before ios 17. after the ios system version was upgraded to 17, a large number of crashes "
+    #              "occurred. what happened?")
+    Main.predict(args.text)
