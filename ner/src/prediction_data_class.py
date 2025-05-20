@@ -15,4 +15,4 @@ class PredictionData(Data):
                 else:
                     f.write(token + '\t' + label + '\n')
 
-        print(f'Modelin yaptığı tahminler TXT dosyasına CoNLL tipinde yazıldı.')
+        print('Modelin yaptığı tahminler TXT dosyasına CoNLL tipinde yazıldı.')

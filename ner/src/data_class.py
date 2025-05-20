@@ -55,7 +55,7 @@ class Data(ABC):
         with open(self.path + '.html', 'w', encoding='utf-8') as file:
             file.write(html)
 
-        print(f'TXT verisi görselleştirilerek HTML dosyasına yazıldı.')
+        print('TXT verisi görselleştirilerek HTML dosyasına yazıldı.')
 
     def take(self):
 
